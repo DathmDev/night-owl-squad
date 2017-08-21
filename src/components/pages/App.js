@@ -1,14 +1,15 @@
 import React from 'react';
 
-import Header from './Header'
-import About from './About'
-import Service from './Service'
-import Gallery from './Gallery'
-import Contact from './Contact'
-import Footer from './Footer'
-import ScrollToTop from './ScrollToTop'
+import '.././common/css/default.css'
+import '.././common/css/responsive.css'
 
-
+import Header from '../layout/Header'
+import About from '../layout/About'
+import Service from '../layout/Service'
+import Gallery from '../layout/Gallery'
+import Contact from '../layout/Contact'
+import Footer from '../layout/Footer'
+import ScrollToTop from '../layout/ScrollToTop'
 
 export default class extends React.Component {
 

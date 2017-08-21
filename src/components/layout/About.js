@@ -17,42 +17,42 @@ export default class extends React.Component {
                     <div className="row">
                         <div className="col-md-3 col-sm-4 col-xs-6 realab-item">
                             <div className="dathm-image text-center">
-                                <a href="members/1312120/1312120.html">
+                                <a href="myportfolio">
                                     <img src={require('../common/images/dathm-img.jpg')} alt="img-responsive" className="img-circle" />
                                 </a>
                             </div>
 
-                            <div className="dathm-name text-center"><a href="members/1312120/1312120.html">Ha Minh Dat</a></div>
+                            <div className="dathm-name text-center"><a href="myportfolio">Ha Minh Dat</a></div>
                             <p className="text-center">Web Designer</p>
                         </div>
                         <div className="col-md-3 col-sm-4 col-xs-6 realab-item">
                             <div className="dathm-image text-center">
-                                <a href="members/1312120/1312120.html">
+                                <a href="myportfolio">
                                     <img src={require('../common/images/dathm-img.jpg')} alt="img-responsive" className="img-circle" />
                                 </a>
                             </div>
 
-                            <div className="dathm-name text-center"><a href="members/1312120/1312120.html">Ha Minh Dat</a></div>
+                            <div className="dathm-name text-center"><a href="myportfolio">Ha Minh Dat</a></div>
                             <p className="text-center">Support</p>
                         </div>
                         <div className="col-md-3 col-sm-4 col-xs-6 realab-item">
                             <div className="dathm-image text-center">
-                                <a href="members/1312120/1312120.html">
+                                <a href="myportfolio">
                                     <img src={require('../common/images/dathm-img.jpg')} alt="img-responsive" className="img-circle" />
                                 </a>
                             </div>
 
-                            <div className="dathm-name text-center"><a href="members/1312120/1312120.html">Ha Minh Dat</a></div>
+                            <div className="dathm-name text-center"><a href="myportfolio">Ha Minh Dat</a></div>
                             <p className="text-center">Boss</p>
                         </div>
                         <div className="col-md-3 col-sm-4 col-xs-6 realab-item">
                             <div className="dathm-image text-center">
-                                <a href="members/1312120/1312120.html">
+                                <a href="myportfolio">
                                     <img src={require('../common/images/dathm-img.jpg')} alt="img-responsive" className="img-circle" />
                                 </a>
                             </div>
 
-                            <div className="dathm-name text-center"><a href="members/1312120/1312120.html">Ha Minh Dat</a></div>
+                            <div className="dathm-name text-center"><a href="myportfolio">Ha Minh Dat</a></div>
                             <p className="text-center">Fixer</p>
                         </div>
                     </div>

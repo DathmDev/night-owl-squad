@@ -1,23 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { BrowserRouter, Link, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.min.css'
-import './components/common/css/default.css'
-import './components/common/css/responsive.css'
 
-import App from './components/layout/App'
+import App from './components/pages/App'
+import MyPortfolio from './components/pages/MyPortfolio'
+
 import registerServiceWorker from './registerServiceWorker'
 
 const Routes = props => {
     return (
         <BrowserRouter>
-            <div>
-                <Route path="/" component={App} />
+            <Switch>
+                <Route exact path="/" component={App} />
                 <Route path="#" to="/" />
-            </div>
+                <Route path="/myportfolio" component={MyPortfolio} />
+            </Switch>
         </BrowserRouter>
     )
 }
