@@ -7,6 +7,14 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+.myinfo {
+    padding: 20px 0;
+}
+
+.myinfo p {
+    color: black;
+}
+
 .dathm-navbar .dathm-form-search {
     font-size: 20px;
     margin-right: 8px;
@@ -349,6 +357,10 @@ a:hover, a:focus {
     margin-top:0px;
 }
 
+.study span {
+    margin-right: 10px;
+}
+
 .cat p{
     font-size:19px;
     color:black;
@@ -514,9 +526,7 @@ label.star:before {
     height: 30px;
     vertical-align: middle;
     padding-top: 5px;
-}
-
-.study i.fa {
+    top: -5px;
     position: relative;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -525,6 +535,16 @@ label.star:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* .study i.fa {
+    position: relative;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.1);
